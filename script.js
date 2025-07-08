@@ -13,11 +13,18 @@ button.addEventListener("click", () => {
     div.appendChild(type);
     centered.appendChild(div);
     document.getElementById("input").value = "";
-    // Making buttons
+    // Making check button
     const checkButton = document.createElement("input");
     checkButton.setAttribute("type", "checkbox");
     checkButton.setAttribute("id", "checkbox");
     div.appendChild(checkButton);
+    // Delete button
+    const deleteButton = document.createElement("button");
+    deleteButton.textContent = "Delete";
+    deleteButton.addEventListener("click", () => {
+      centered.removeChild(div);
+    });
+    div.appendChild(deleteButton);
   } else {
     console.log("invalid");
   }
