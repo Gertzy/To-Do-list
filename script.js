@@ -21,6 +21,7 @@ button.addEventListener("click", () => {
     // Delete button
     const deleteButton = document.createElement("button");
     deleteButton.textContent = "Delete";
+    deleteButton.setAttribute("class", "deletebutton");
     deleteButton.addEventListener("click", () => {
       centered.removeChild(div);
     });
