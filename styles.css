@@ -4,10 +4,17 @@
   align-items: center;
   text-align: center;
 }
-#taskbox {
+.taskbox {
   display: flex;
   flex-direction: row;
 }
 .deletebutton {
   height: 30px;
+}
+.buttonwrapper {
+  display: flex;
+  align-items: center;
+}
+.checkbox {
+  margin: 7px;
 }
