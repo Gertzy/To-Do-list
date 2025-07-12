@@ -9,7 +9,10 @@
   flex-direction: row;
 }
 .deletebutton {
-  height: 30px;
+  height: 21px;
+}
+.deletebutton:hover {
+  cursor: pointer;
 }
 .buttonwrapper {
   display: flex;
@@ -17,4 +20,20 @@
 }
 .checkbox {
   margin: 7px;
+}
+.checkbox:hover {
+  cursor: pointer;
+}
+#input {
+  border-radius: 4%;
+  caret-color: blueviolet;
+  color: blue;
+  background-color: rgb(226, 226, 226);
+}
+#button {
+  border-radius: 4%;
+  background-color: rgb(226, 226, 226);
+}
+#button:hover {
+  cursor: pointer;
 }
